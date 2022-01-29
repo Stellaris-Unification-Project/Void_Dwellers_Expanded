@@ -74,7 +74,7 @@ event = {
 					}
 				}
 			}
-			every_country = {
+			every_playable_country = {
 				limit = {
 					is_ai = no
 				}

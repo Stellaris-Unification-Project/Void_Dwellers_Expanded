@@ -5,10 +5,8 @@ amaryllian_building_mineral_purification_plant = {
 	potential = {
 		is_planet_class = pc_habitat
 		has_planet_flag = amaryllian_mining_arcology
-		NOT = {
-			has_planet_flag = mining_habitat
-		}
 		NOR = {
+			has_planet_flag = mining_habitat
 			has_building = building_mineral_purification_plant
 			has_building = building_mineral_purification_hub
 		}
@@ -290,10 +288,8 @@ amaryllian_building_energy_grid = {
 	potential = {
 		is_planet_class = pc_habitat
 		has_planet_flag = amaryllian_generator_arcology
-		NOT = {
-			has_planet_flag = energy_habitat
-		}
 		NOR = {
+			has_planet_flag = energy_habitat
 			has_building = building_energy_grid
 			has_building = building_energy_nexus
 		}
